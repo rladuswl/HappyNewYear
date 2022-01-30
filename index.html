@@ -83,6 +83,13 @@
         bottom: 16px;
         left: calc(50% - 150px);
       }
+
+      .box > img {
+        width: 70px;
+        position: absolute;
+        bottom: 50%;
+        left: 50%;
+      }
     </style>
   </head>
   <body>
@@ -91,7 +98,13 @@
         <h1>덕담 하나 주면 안 잡아먹지~!</h1>
         <p>기면지 님이 받은 덕담: <span>2개</span></p>
       </div>
-      
+      <div>
+        <div class="box">
+          <img
+            onclick="alert('새해복!')"
+            src="https://2022-01-newyear.s3.ap-northeast-2.amazonaws.com/object3.png"
+          />
+        </div>
       </div>
       <div class="btn">바구니에 덕담 남기기</div>
     </div>
